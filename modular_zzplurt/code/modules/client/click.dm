@@ -1,3 +1,5 @@
+// BLUEMOON EDIT START: REMOVE INTENTS
+/*
 /mob/living/carbon/human
 	var/_last_next_move = 0
 
@@ -19,3 +21,5 @@
 				CtrlClickOn(attack_target)
 				return
 	return ..()
+*/
+// BLUEMOON EDIT END

@@ -1,4 +1,6 @@
 //redefines
+// BLUEMOON EDIT START: REMOVE INTENTS
+/*
 #undef ui_combat_toggle
 #undef ui_crafting
 #undef ui_building
@@ -10,7 +12,8 @@
 #define ui_building "EAST-5:22,SOUTH:21"
 #define ui_language_menu "EAST-5:6,SOUTH:21"
 #define ui_navigate_menu "EAST-5:22,SOUTH:5"
-
+*/
+// BLUEMOON EDIT END: REMOVE INTENTS
 // Extra inventory
 #define ui_inventory_extra "WEST:6,SOUTH+3:11"
 #define ui_boxers "WEST:6,SOUTH+4:13"

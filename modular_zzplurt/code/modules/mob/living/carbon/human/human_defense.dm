@@ -1,3 +1,5 @@
+// BLUEMOON EDIT START: REMOVE INTENTS
+/*
 /mob/living/carbon/human/proc/set_combat_focus(new_mode, silent = TRUE)
 	if(combat_focus == new_mode)
 		return
@@ -17,4 +19,5 @@
 		set_combat_indicator(FALSE)
 		if(focus_sound)
 			SEND_SOUND(src, sound('sound/misc/ui_toggleoffcombat.ogg', volume = 25)) //Slightly modified version of the above
-
+*/
+// BLUEMOON EDIT END

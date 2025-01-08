@@ -1,6 +1,7 @@
 /mob/living/carbon/human/attack_ghost(mob/dead/observer/user)
 	. = ..()
-	if(. || !user.client)
+// BLUEMOON EDIT START: TEMP REMOVE GHOST ASS SLAP
+/*	if(. || !user.client)
 		return
 	if(!(isAdminGhostAI(user) || user.client.prefs.read_preference(/datum/preference/toggle/inquisitive_ghost)) && CONFIG_GET(flag/ghost_interaction))
 		return
@@ -51,3 +52,5 @@
 
 		// Add arousal
 		adjust_arousal(10)
+*/
+// BLUEMOON EDIT END

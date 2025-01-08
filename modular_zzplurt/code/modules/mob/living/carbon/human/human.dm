@@ -1,6 +1,6 @@
 /mob/living/carbon/human
 	/// Are we currently in combat focus?
-	var/combat_focus = FALSE
+	// var/combat_focus = FALSE // BLUEMOON EDIT START: REMOVE INTENTS
 
 /mob/living/carbon/human/Initialize(mapload)
 	. = ..()

@@ -1,3 +1,5 @@
+// BLUEMOON EDIT START: REMOVE INTENTS
+/*
 /datum/hud
 	var/atom/movable/screen/focus_toggle
 
@@ -14,3 +16,5 @@
 	focus_toggle.icon = ui_style
 	focus_toggle.update_appearance()
 	static_inventory += focus_toggle
+*/
+// BLUEMOON EDIT END

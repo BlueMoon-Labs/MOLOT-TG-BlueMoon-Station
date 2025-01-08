@@ -1,3 +1,5 @@
+// BLUEMOON EDIT START: REMOVE INTENTS
+/*
 /datum/keybinding/human/set_intent
 	var/set_intent = NONE
 
@@ -44,3 +46,5 @@
 
 /datum/keybinding/living/enable_combat_mode/can_use(client/user)
 	return ..() && !ishuman(user.mob)
+*/
+// BLUEMOON EDIT END

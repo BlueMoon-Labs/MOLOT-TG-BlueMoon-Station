@@ -171,10 +171,12 @@ GLOBAL_LIST_INIT(interaction_menu_preferences, typecacheof(list(
 	switch(resolve_intent_name(target.combat_mode))
 		if(INTENT_HELP)
 			attributes += "are acting gentle"
-		if(INTENT_DISARM)
-			attributes += "are acting playful"
-		if(INTENT_GRAB)
-			attributes += "are acting rough"
+		// BLUEMOON EDIT START - Temporarily removed intent disarm and grab. Needs rework
+		//if(INTENT_DISARM)
+		//	attributes += "are acting playful"
+		//if(INTENT_GRAB)
+		//	attributes += "are acting rough"
+		// BLUEMOON EDIT END
 		if(INTENT_HARM)
 			attributes += "are fighting anyone who comes near"
 
